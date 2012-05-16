@@ -47,8 +47,6 @@ grails.project.dependency.resolution = {
 		compile ":quartz:0.4.2"
 		compile ":springcache:1.3.1"
 		
-		compile ":webflow:$grailsVersion"
-
 		compile ":spring-security-core:1.2.7.3"
 		// If you're getting errors like the following, try running `grails compile` with the following version of 
 		// spring-security-ldap rather than the custom version
