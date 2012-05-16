@@ -37,8 +37,6 @@ grails.project.dependency.resolution = {
 		compile ":audit-logging:0.5.4"
 		compile ":barcode4j:0.2"
 		compile ":birt-report:2.6.1.0"
-		test ":code-coverage:1.2.5"
-		test ":codenarc:0.16.1"
 		compile ":csv:0.3"
 		compile ":joda-time:1.0"
 		compile ":jquery:1.7.1"
@@ -55,6 +53,6 @@ grails.project.dependency.resolution = {
 		   */
 		compile ":spring-security-ldap:1.0.5"
 		compile ":spring-security-shibboleth-native-sp:1.0.3"
-		provided ":spring-security-mock:1.0.1"
+		compile ":spring-security-mock:1.0.1"
 	}
 }
