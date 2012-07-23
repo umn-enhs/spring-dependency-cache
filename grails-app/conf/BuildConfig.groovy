@@ -36,11 +36,11 @@ grails.project.dependency.resolution = {
 		compile ":address-lookup-zpfour:0.1.2"
 		compile ":audit-logging:0.5.4"
 		compile ":barcode4j:0.2"
-		compile ":birt-report:2.6.1.0"
+		//compile ":birt-report:2.6.1.0"
 		compile ":csv:0.3"
 		compile ":joda-time:1.0"
 		compile ":jquery:1.7.1"
-		compile ":mail:1.0-SNAPSHOT"
+		compile ":mail:1.0"
 		compile ":pdf:0.6"
 		compile ":quartz:0.4.2"
 		compile ":springcache:1.3.1"
@@ -51,7 +51,7 @@ grails.project.dependency.resolution = {
 		/* :: org.springframework.ldap#org.springframework.ldap;1.3.0.RELEASE: not found
 		   :: org.springframework.security#org.springframework.security.ldap;3.0.4.RELEASE: not found
 		   */
-		compile ":spring-security-ldap:1.0.5"
+		compile ":spring-security-ldap:1.0.6"
 		compile ":spring-security-shibboleth-native-sp:1.0.3"
 		compile ":spring-security-mock:1.0.1"
 	}
