@@ -1,0 +1,5 @@
+grails-app/i18n/
+grails-app/views/
+target/
+web-app/
+
